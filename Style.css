@@ -1,0 +1,41 @@
+ body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px 40px;
+}
+
+#name{
+    font-size: 45px;
+    border-top: 3px solid black;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+#role{
+    color: darkslategray;
+    font-size: 30px;
+}
+
+.heading{
+    color: teal;
+    margin-top: 50px;
+}
+
+a{
+    color: darkslategray
+}
+.date{
+    font-size: 14px;
+    color: dimgray;
+}
+
+.left_side{
+    float: left;
+    width: 60%;
+    margin-right: 35px;
+}
+
+aside{
+    padding-top: 8px;
+}
