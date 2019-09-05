@@ -61,8 +61,25 @@
                                 </aside>
         
             </div>
+            <div>
+                <h3 id = "head">Contact Me</h3>
+                <form action="#" onsubmit="checkValue()">
+                <fieldset class = "container">
+                    <label for ="name">Name</label> <br>
+                    <input type="text" name = "name" placeholder = "Jane Doe" minlength="4" required ><br>
+                    <label for ="email">Email</label> <br>
+                    <input type="email" name = "email" placeholder = "you@domain.com" required><br>
+                    <label for ="title">Title</label> <br>
+                    <input type = "text" name = "title" placeholder="Subject" required><br>
+                    <label for ="message">Message</label> <br>
+                    <textarea placeholder="Write a message..." rows = "4" minlength="20" required></textarea><br>
+                    <div class = "button">  <input type="submit" name = "submit" > </div>
+                </fieldset>
+                </form>
+            </div>
 
         <!-- Created a table that has one row, and three columns -->
+        <script src = "contact.js"></script>
     
     </body>
 </html>
