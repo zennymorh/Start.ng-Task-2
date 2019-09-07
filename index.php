@@ -3,8 +3,9 @@
     <!-- Added the head tag to name the file -->
     <head>
         <title>
-           Zainab's CV
+           Zainab Jimoh's CV presented in a webpage
         </title>
+        <meta name = "description" content = "Giving you basic HTML, CSS, PHP skills by using a CV as an example. The CV also gives a little knowledge of git and github"/>
         <!-- Linked my html to my css -->
         <link rel = "stylesheet" href = "style.css" type = "text/css" />
     </head>
@@ -12,7 +13,7 @@
             <div>
                     <div class = "left_side">
                             <h2 id = "name"><strong>Zainab Jimoh</strong></h2>
-                            <img src="https://res.cloudinary.com/dus0rq5x5/image/upload/v1566525219/start.ng/DSC_5143_copy4_jl90us%20edit2.jpg" alt="Image of Zee">
+                            <img src="https://res.cloudinary.com/dus0rq5x5/image/upload/v1566525219/start.ng/DSC_5143_copy4_jl90us%20edit2.jpg" alt="Image of Zainab Jimoh from cloudinary">
                             <h3 id = "role">Android Developer</h3>
                             <h4 class = "heading">EXPERIENCE</h4>
                             <ul>
