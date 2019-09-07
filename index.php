@@ -3,9 +3,10 @@
     <!-- Added the head tag to name the file -->
     <head>
         <title>
-            Zainab.html
+           Zainab's CV
         </title>
-        <link rel = "stylesheet" href = "Style.css" type = "text/css" />
+        <!-- Linked my html to my css -->
+        <link rel = "stylesheet" href = "style.css" type = "text/css" />
     </head>
     <body>
             <div>
@@ -31,7 +32,7 @@
                             <ul>
                                 <li><strong>Zennymorh.me (Personal blog)</strong> — <em>Web</em>
                                     <p class="date">July 2019 - Present</p>
-                                    <p>Developed my personal blog <a target = "blank" href  = "https://zennymorh.me">zennymorh.me</a> using Wordpress CMS.
+                                    <p>Developed my personal blog <a target = "_blank" href  = "https://zennymorh.me">zennymorh.me</a> using Wordpress CMS.
                                     </p>
                                 </li>
                             </ul>
@@ -41,8 +42,8 @@
                                 <h4 class="heading">CONTACT INFO</h4>
                                      <p>No 18, Valentino, Ondo, Ondo State.</p>
                                      <p><strong>+2348161249034</strong></p>
-                                     <p><a target = "blank" href  = "https://jimohzainab4753@gmail.com">Email</a></p>
-                                     <p><a target = "blank" href = "https://github.com/zennymorh">Github account</a></p>
+                                     <p><a target = "_blank" href = "mailto:jimohzainab4753@gmail.com" >Email</a></p>
+                                     <p><a target = "_blank" href = "https://github.com/zennymorh">Github account</a></p>
              
                                  <h4 class="heading">SKILLS</h4>
                                      <p>Android Development (Java and Kotlin)</p> 
@@ -61,9 +62,10 @@
                                 </aside>
         
             </div>
+            <!-- The submit is in a separate folder to help with styling it -->
             <div>
                 <h3 id = "head">Contact Me</h3>
-                <form action="#" onsubmit="checkValue()">
+                <form action="contactForm.php" method='post'>
                 <fieldset class = "container">
                     <label for ="name">Name</label> <br>
                     <input type="text" name = "name" placeholder = "Jane Doe" minlength="4" required ><br>
@@ -72,14 +74,12 @@
                     <label for ="title">Title</label> <br>
                     <input type = "text" name = "title" placeholder="Subject" required><br>
                     <label for ="message">Message</label> <br>
-                    <textarea placeholder="Write a message..." rows = "4" minlength="20" required></textarea><br>
+                    <textarea name = "message" placeholder="Write a message..." rows = "4" minlength="20" required></textarea><br>
                     <div class = "button">  <input type="submit" name = "submit" > </div>
                 </fieldset>
                 </form>
             </div>
-
-        <!-- Created a table that has one row, and three columns -->
         <script src = "contact.js"></script>
-    
+        
     </body>
 </html>
